@@ -16,8 +16,9 @@ Then you'd need to run the code to connect your device to the github client, and
 
 
 ```
-git auth login
+gh auth login
 ```
+
 
 
 <img src="src/assets/image.png" alt="picture of code in command prompt"></img>
