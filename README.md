@@ -12,12 +12,11 @@ The picture below illustrate the code I needed to run in order to make this work
     </li>
 </ol>
 
-Then you'd need to run the code 
+Then you'd need to run the code to connect your device to the github client, and follow the instructions:
 
 
 ```
-$ echo hello
-hello
+git auth login
 ```
 
 
