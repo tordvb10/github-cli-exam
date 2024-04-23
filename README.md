@@ -17,10 +17,11 @@ The picture below illustrate the code I needed to run in order to make this work
 
 Then you'd need to run the code to connect your device to the github client, and follow the instructions:
 
-
+<div>
 ```
 winget install --id Git.Git -e --source winget
 ```
+</div>
 ```
 gh auth login
 ```
