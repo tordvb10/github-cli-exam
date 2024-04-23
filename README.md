@@ -64,10 +64,17 @@ You need to set the naming of the default branch to same as the remote branch, y
 git branch -M main
 ```
 
-Now you can make your first commit as you would normally do, for intance:
+Now you can make your first commit as you would normally do, run this these code for intance:
  ```
- git add .  git commit -m "first"
+ git add .          git commit -m "first"
  ```
+
+The first the you push you need to define an upstream to the branch. Lately, you will only need to use command `git push` to push commits, because then the local branch is connected to the remote branch. For this first push, connect your branch to upstream by running this command:
+
+```
+git push -u origin main 
+```
+
 
 
 <img src="src/assets/image.png" alt="picture of code in command prompt"></img>
