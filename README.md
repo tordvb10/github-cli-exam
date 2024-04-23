@@ -12,7 +12,6 @@ The picture below illustrate the code I needed to run in order to make this work
     </li>
 </ol>
 
-Then you'd need to run the code to connect your device to the github client, and follow the instructions:
 
 To install Git in with winget:
 ```
@@ -22,6 +21,10 @@ To install GitHub Client with winget:
 ```
 winget install --id GitHub.cli
 ```
+
+In order to work with GitHub from command line, you need to verify that it is you on you computer.
+Just run the code in command prompt below, and follow the instructions, to connect your device to the GitHub Client:
+
 ```
 gh auth login
 ```
