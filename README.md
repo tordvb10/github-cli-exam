@@ -52,6 +52,12 @@ If you use ssh-keys:
 ```
 git add remote origin git@github.com:<user-name>/<projec-name>
 ```
+And if you use web url:
+
+```
+git add remote origin https://github.com/<user-name>/<projec-name>
+```
+
 
 
 <img src="src/assets/image.png" alt="picture of code in command prompt"></img>
