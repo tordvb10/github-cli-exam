@@ -19,6 +19,9 @@ Then you'd need to run the code to connect your device to the github client, and
 
 
 ```
+winget install --id Git.Git -e --source winget
+```
+```
 gh auth login
 ```
 
