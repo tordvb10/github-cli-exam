@@ -46,6 +46,13 @@ Then initialize Git repository by running command below:
 git init
 ```
 
+Then add your project to a remote repository by either command:
+If you use ssh-keys:
+
+```
+git add remote origin git@github.com:<user-name>/<projec-name>
+```
+
 
 <img src="src/assets/image.png" alt="picture of code in command prompt"></img>
 
