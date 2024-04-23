@@ -6,11 +6,6 @@ The picture below illustrate the code I needed to run in order to make this work
 <ol>
     <li>
         <a href="https://git-scm.com/downloads">link to install GitHub on your computer.</a> <br/>Or install it from command prompt: <br/>
-
-        ```
-        winget install --id Git.Git -e --source winget
-        ```
-        
     </li>
     <li>
         <a href="https://cli.github.com/">link to install GitHub Cli on your computer.</a>
@@ -19,7 +14,14 @@ The picture below illustrate the code I needed to run in order to make this work
 
 Then you'd need to run the code to connect your device to the github client, and follow the instructions:
 
-
+To install Git in with winget:
+```
+winget install --id Git.Git -e --source winget
+```
+To install GitHub Client with winget:
+```
+winget install --id GitHub.cli
+```
 ```
 gh auth login
 ```
