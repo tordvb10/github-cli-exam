@@ -58,6 +58,12 @@ And if you use web url:
 git add remote origin https://github.com/<user-name>/<projec-name>
 ```
 
+You need to set the naming of the default branch to same as the remote branch, you can check your account to see what the naming is for your case, but mostly it would be named: `main`. Then you need to define the default branch by tag `-M`, run this code:
+
+```
+git branch -M main
+```
+
 
 
 <img src="src/assets/image.png" alt="picture of code in command prompt"></img>
