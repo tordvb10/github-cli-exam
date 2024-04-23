@@ -5,7 +5,10 @@ This project is a test projct where everything was done through the command line
 The picture below illustrate the code I needed to run in order to make this work. First you'd need som program on your computer, if you not allready have:
 <ol>
     <li>
-        <a href="https://git-scm.com/downloads">link to install GitHub on your computer.</a>
+        <a href="https://git-scm.com/downloads">link to install GitHub on your computer.</a> Or install it from command prompt: 
+        ```
+        winget install --id Git.Git -e --source winget
+        ```
     </li>
     <li>
         <a href="https://cli.github.com/">link to install GitHub Cli on your computer.</a>
