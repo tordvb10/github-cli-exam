@@ -64,6 +64,10 @@ You need to set the naming of the default branch to same as the remote branch, y
 git branch -M main
 ```
 
+Now you can make your first commit as you would normally do, for intance:
+ ```
+ git add .  git commit -m "first"
+ ```
 
 
 <img src="src/assets/image.png" alt="picture of code in command prompt"></img>
