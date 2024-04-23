@@ -5,7 +5,7 @@ This project is a test projct where everything was done through the command line
 The picture below illustrate the code I needed to run in order to make this work. First you'd need som program on your computer, if you not allready have:
 <ol>
     <li>
-        <a href="https://git-scm.com/downloads">link to install GitHub on your computer.</a> <br/>Or install it from command prompt: 
+        <a href="https://git-scm.com/downloads">link to install GitHub on your computer.</a> <br/>Or install it from command prompt: <br/>
         ```
         winget install --id Git.Git -e --source winget
         ```
