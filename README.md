@@ -46,6 +46,12 @@ Then initialize Git repository by running command below:
 git init
 ```
 
+Ikke ferdig med å foklare dette:
+```
+gh repo create ChessWithReact --public --source=. --remote=upstream --push
+```
+
+
 Then add your project to a remote repository by either command:
 If you use ssh-keys:
 
